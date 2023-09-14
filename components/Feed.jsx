@@ -22,6 +22,8 @@ const Feed = () => {
   const [searchText, setSearchText] = useState("");
   const [posts, setPosts] = useState([]);
 
+  // console.log(posts);
+
   const handleSearchChange = (e) => {};
 
   useEffect(() => {
